@@ -1,0 +1,340 @@
+* {
+  box-sizing: border-box;  
+}
+
+html {
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+welcome{
+  background-color: #cccccc;
+  padding-top: 20;
+  padding-bottom: 20;
+}
+
+welcome h3 {
+  color: #111111;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+welcome img{
+  aspect-ratio: 1.5;
+  min-width: 200px;
+  min-height: 150px;
+  max-height: 300px;
+  max-width: 400px;
+  padding-bottom: 20;
+}
+
+body {
+  background-color: #dddddd;
+  color: black;
+  font-size: 12px;
+  margin: 0;
+  min-height: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  margin: 0;  
+}
+
+header {
+  background-color: #888888;
+  font-size: 22px;
+  padding: 15;
+  overflow: hidden;
+}
+
+header h1, header h3 {
+  color: #111111;  
+  text-align: center;  
+}
+
+nav {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type:none;
+  width: 100%;
+  padding:0;
+  text-align: center;
+  overflow: hidden;
+  background-color: #402d00;
+}
+
+nav li {
+  float: center;
+  margin: 10;
+}
+
+nav a {
+  display: block;
+  color: #cccccc;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  border: 5px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #7f4f03;
+}
+
+.active {
+  background-color: #7f4f03;
+  color: #aaaaaa;
+  border: 2px;
+  border-radius: 30px;
+  font-weight: bolder;
+}
+
+
+article{
+  padding: 3%;
+}
+
+article p {
+  text-align: justify;
+  font-size: 18px; 
+}
+
+article h3{
+  text-align: center;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+article h1 {
+  font-size: 28px;
+  color: #333333;
+  text-align: center;  
+}
+
+article img{
+  margin: 10;
+}
+
+projects{
+  padding: 20px;
+}
+
+projects h1 {
+  font-size: 34px;
+  color: #333333;
+  text-align: center;
+  padding: 10px;
+}
+
+projects img{
+  max-width: 600px;
+  padding: 10;
+}
+
+team{
+  padding: 5px;
+}
+
+team h1 {
+  font-size: 34px;
+  color: #333333;
+  text-align: center;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  
+}
+
+
+.internal-img {
+  width: 99%;
+}
+
+.external-img {
+  width: 103%; 
+}
+
+.interna {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 6%;
+}
+
+.interna h5{
+  font-size: larger;
+}
+
+.interna p{
+  font-weight: normal;
+}
+
+.devclub {
+  display: inline-block;
+  text-align: center;
+  }
+
+.members {
+  display: inline-block;
+  margin: 3.2%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 400;
+}
+
+.members h5{
+  font-size: larger;
+}
+
+.members p{
+  font-weight: normal;
+}
+
+
+
+.gallery {
+  margin-left: auto;
+	margin-right: auto;
+	display: block; 
+  border: 1px solid #6c5f5b;
+  width: 180px; 
+}  
+
+.gallery img {
+  width: 100%;
+}
+
+.desc {
+  padding: 5px;
+  font-size: 17px;
+  text-align: center;
+}    
+
+.internal_activities {
+  display: flex;  
+}
+
+.external_activities {
+  display: flex;  
+}
+
+fieldset {
+  width: 50%;
+}
+
+legend {
+  font-size: 16px;  
+}
+
+main label {
+  font-size: 16px;  
+}
+
+footer {
+  background-color: #402d00;
+  color: #e2a515;
+  padding: 15;
+  text-align: center;
+  font-size: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow:hidden;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media screen and (max-width:576px) {
+  header {
+    font-size: 12px;
+  }
+  
+  nav ul li {
+    float: none;
+  }
+  
+  nav li a {
+    font-size: 18px;  
+  }
+  
+  .center {
+    width: 50;
+  }
+  
+  .internal_activities {
+    display: block;  
+  }
+
+  .external_activities {
+    display: block;  
+  }
+  
+  textarea {
+    width: 98%;  
+  }
+  
+  footer {
+    font-size: 18px;  
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media screen and (min-width:576px) {
+  header {
+    font-size: 12px;
+  }
+  
+  nav ul li {
+    float: none;
+  }
+  
+  nav li a {
+    font-size: 18px;  
+  }
+  
+  footer {
+    font-size: 18px;  
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media screen and (min-width:768px) {
+  header {
+    font-size: 16px;
+  }
+  
+  nav ul li {
+    float: none;
+  }  
+}
+
+/* Large devices (desktops, 992px and up)*/
+
+@media screen and (min-width:992px) {
+  header {
+    font-size: 20px;
+  }
+  
+  nav ul li {
+    float: left;
+  }   
+}
+
