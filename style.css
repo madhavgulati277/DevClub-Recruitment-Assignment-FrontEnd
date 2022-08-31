@@ -21,12 +21,7 @@ welcome h3 {
 
 
 welcome img{
-  aspect-ratio: 1.5;
-  min-width: 200px;
-  min-height: 150px;
-  max-height: 300px;
-  max-width: 400px;
-  padding-bottom: 20;
+  aspect-ratio: 1.7;
 }
 
 body {
@@ -34,7 +29,6 @@ body {
   color: black;
   font-size: 12px;
   margin: 0;
-  min-height: 100%;
   text-align: center;
 }
 
@@ -121,7 +115,7 @@ article h1 {
 }
 
 projects{
-  padding: 20px;
+  padding: 10px;
 }
 
 projects h1 {
@@ -140,10 +134,17 @@ team{
   padding: 5px;
 }
 
-team h1 {
+.heading h1 {
   font-size: 34px;
   color: #333333;
   text-align: center;
+}
+
+.greeting h1 {
+  font-size: 34px;
+  color: #333333;
+  text-align: center;
+  padding: 2%;
 }
 
 
@@ -168,7 +169,7 @@ team h1 {
   font-size: 20px;
   font-weight: bold;
   display: inline-block;
-  margin: 6%;
+  margin: 3%;
 }
 
 .interna h5{
@@ -262,7 +263,7 @@ footer {
 
 @media screen and (max-width:576px) {
   header {
-    font-size: 12px;
+    font-size: 1.5vw;
   }
   
   nav ul li {
@@ -292,6 +293,28 @@ footer {
   footer {
     font-size: 18px;  
   }
+
+  .heading h1{
+    font-size: 5vw;
+  }
+
+  .greeting h1{
+    font-size: 7vw;
+  }
+
+  .members{
+    font-size: 3vw;
+    width: 90%;
+  }
+  
+  .interna{
+    font-size: 3vw;
+    width: 70%;
+  }
+
+  .navbar{
+    font-size: 3vw;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -312,6 +335,8 @@ footer {
   footer {
     font-size: 18px;  
   }
+
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
