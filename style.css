@@ -120,10 +120,6 @@ article h1 {
   text-align: center;  
 }
 
-article img{
-  margin: 10;
-}
-
 projects{
   padding: 20px;
 }
@@ -184,8 +180,12 @@ team h1 {
 }
 
 .devclub {
-  display: inline-block;
   text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 6%;
+  min-width: 50%;  
   }
 
 .members {
