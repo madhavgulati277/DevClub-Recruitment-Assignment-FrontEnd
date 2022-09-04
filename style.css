@@ -65,7 +65,7 @@ nav ul {
   padding:0;
   text-align: center;
   overflow: hidden;
-  background-color: #402d00;
+  background-color: #281c00;
   float: center;
 }
 
@@ -76,7 +76,7 @@ nav li {
 
 nav a {
   display: block;
-  color: #cccccc;
+  color: #ffd900;
   text-align: center;
   font-size: 20px;
   padding: 10px;
@@ -86,15 +86,14 @@ nav a {
 }
 
 li a:hover {
-  background-color: #7f4f03;
+  background-color: #684309;
 }
 
 .active {
-  background-color: #7f4f03;
-  color: #aaaaaa;
+  background-color: #684309;
+  color: #eeeeee;
   border: 2px;
   border-radius: 30px;
-  font-weight: bolder;
 }
 
 
@@ -160,14 +159,11 @@ team{
   width: 70%;  
 }
 
-
 .internal-img {
   width: 99%;
 }
 
-.external-img {
-  width: 103%; 
-}
+
 
 .interna {
   text-align: center;
@@ -175,6 +171,7 @@ team{
   font-weight: bold;
   display: inline-block;
   margin: 3%;
+  vertical-align: middle;
 }
 
 .interna h5{
@@ -201,6 +198,7 @@ team{
   font-size: 20px;
   font-weight: bold;
   max-width: 400;
+  vertical-align: middle;
 }
 
 
@@ -211,8 +209,6 @@ team{
 .members p{
   font-weight: normal;
 }
-
-
 
 .gallery {
   margin-left: auto;
@@ -253,8 +249,8 @@ main label {
 }
 
 footer {
-  background-color: #402d00;
-  color: #e2a515;
+  background-color: #281c00;
+  color: #ffb300;
   padding: 15;
   text-align: center;
   font-size: 20px;
