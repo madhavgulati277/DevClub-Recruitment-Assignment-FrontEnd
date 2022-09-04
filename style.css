@@ -110,12 +110,14 @@ article h3{
   text-align: center;
   font-size: 22px;
   font-weight: lighter;
+  margin-top: 1%;
 }
 
 article h1 {
   font-size: 28px;
   color: #333333;
-  text-align: center;  
+  text-align: center;
+  margin-bottom: 2%;  
 }
 
 projects{
@@ -153,11 +155,10 @@ team{
 
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;  
+  display:inline-block;
+  width: 50%;  
 }
+
 
 .internal-img {
   width: 99%;
