@@ -43,22 +43,22 @@ body {
 
 @keyframes color {
 	0% {
-		background: #ee6055;
+		background: #ffa099;
 	}
 	20% {
-		background: #60d394;
+		background: #bfedd4;
 	}
   40%{
-    background: #00a6ff;
+    background: #99dbff;
   }
 	60% {
-		background: #fa52f7;
+		background: #fdbafc;
 	}
 	80% {
-		background: #ffd97d;
+		background: #ffefcb;
 	}
 	100% {
-		background: #ff2f2f;
+		background: #ffacac;
 	}
 }
 
