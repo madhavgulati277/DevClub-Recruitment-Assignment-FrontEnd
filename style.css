@@ -8,7 +8,7 @@ html {
 }
 
 .welcome{
-  background-color: #cccccc;
+  background-color: #eeeeee;
   padding-top: 20;
   padding-bottom: 20;
 }
@@ -29,7 +29,7 @@ html {
 
 
 body {
-  background-color: #dddddd;
+  background-color: #eeeeee;
   color: black;
   font-size: 12px;
   margin: 0;
@@ -42,7 +42,7 @@ h1 {
 }
 
 header {
-  background-color: #888888;
+  background-color: #aaaaaa;
   font-size: 22px;
   padding: 15;
   overflow: hidden;
@@ -110,7 +110,8 @@ article h3{
   text-align: center;
   font-size: 22px;
   font-weight: lighter;
-  margin-top: 1%;
+  margin-top: 3%;
+  margin-bottom: 1%;
 }
 
 article h1 {
@@ -133,7 +134,7 @@ projects h1 {
 
 projects img{
   max-width: 600px;
-  padding: 10;
+  margin: 10;
 }
 
 team{
@@ -156,15 +157,36 @@ team{
 
 .center {
   display:inline-block;
-  width: 50%;  
+  width: 50%;
+  transition: transform 0.5s;
 }
 
+.center:hover {
+  transform: scale(1.07);
+}
 
 .internal-img {
   width: 99%;
+  border-radius: 1%;
+  transition: transform 0.5s;
 }
 
+.internal-img:hover {
+  box-shadow: 0 0 1vw .5vw #888888;
+  transform: scale(1.03);
+}
 
+.members-img {
+  width: 99%;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  transition: transform 0.5s;
+}
+
+.members-img:hover {
+  box-shadow: 0 0 1vw .5vw #888888;
+  transform: scale(1.03);
+}
 
 .interna {
   text-align: center;
@@ -186,11 +208,32 @@ team{
 .devclub {
   text-align: center;
   font-size: 20px;
-  font-weight: bold;
   display: inline-block;
   margin: 6%;
   min-width: 50%;  
   }
+
+.devclub h3{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+  
+.devclub h4 {
+  font-size: 18px;
+  color: #333333;
+  text-align: justify;
+  margin-bottom: 1%;
+  margin-top: 1%;  
+}
+
+.devclub p {
+  font-size: large;
+  text-align: justify;
+  margin-bottom: 5%;
+}
 
 .members {
   display: inline-block;
@@ -261,6 +304,14 @@ footer {
   overflow:hidden;
 }
 
+.navbar img {
+  margin-left: 3px;
+  transition: transform 0.5s;
+}
+
+.navbar img:hover {
+  transform: scale(1.1);
+}
 
 /* Extra small devices (portrait phones, less than 576px)*/
 
