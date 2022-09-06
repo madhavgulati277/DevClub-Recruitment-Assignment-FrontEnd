@@ -298,8 +298,12 @@ team{
   vertical-align: baseline;
 }
 
+.members {
+  margin: 5vw;
+}
+
 .members-img {
-  width: 99%;
+  width: 80%;
   border-radius: 50%;
   aspect-ratio: 1;
   transition: transform 0.8s;
@@ -403,13 +407,17 @@ footer {
   overflow:hidden;
 }
 
+.navbar {
+  margin: 0%;
+}
+
 .navbar img {
   margin-left: 3px;
   transition: transform 0.8s;
 }
 
 .navbar img:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
@@ -523,6 +531,12 @@ footer {
 
   .navbar{
     font-size: 3vw;
+  }
+
+  .navbar img{
+    margin-left: 0.5vw;
+    width: 8vw;
+    height:8vw;
   }
 }
 
