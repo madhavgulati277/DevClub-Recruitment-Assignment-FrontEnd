@@ -232,7 +232,7 @@ team{
   border-radius: 1%;
   position: absolute;
   vertical-align: middle;
-  padding:10px;
+  padding:1.5vw;
   align-self: middle;
   width: 100%;
   top: 0;
@@ -241,7 +241,7 @@ team{
   right: 0;
   opacity: 0;
   transition: 2s;
-  background-color: #222222;
+  background-color: #0e4200;
 }
 
 .image {
@@ -254,7 +254,6 @@ team{
   bottom: 0;
   left: 0;
   right: 0;
-  transition: 2s;
 }
 
 .internal-img {
@@ -278,7 +277,7 @@ team{
 }
 
 .text {
-  color: #eeeeee;
+  color: #fffb00;
   position: relative;
   margin: 0%;
   top: 20%;
@@ -286,15 +285,16 @@ team{
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  font-weight: bold;
 }
 
 .text h5 {
-  font-size: 22px;
+  font-size: 28px;
   vertical-align: top;
 }
 
 .text p {
-  font-size: 14px;
+  font-size: 18px;
   vertical-align: baseline;
 }
 
@@ -310,6 +310,7 @@ team{
   min-width: 6vw;
   box-shadow: 0px 8px 16px 0px #888888;
   z-index: 1;
+  transition: 2s;
   border-radius: 1vw;
   vertical-align: middle;
 }
@@ -321,14 +322,13 @@ team{
   text-decoration: none;
   display: block;
   border-radius: 1vw;
-  vertical-align: middle;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #999;}
 
 
-.member:hover .dropdown-content {display: inline-block;}
+.member:hover .dropdown-content {display: inline-block; }
 
 .member {
   margin: 5vw;
@@ -593,12 +593,12 @@ footer {
 
 
   .text h5 {
-    font-size: 3vw;
+    font-size: 4.5vw;
     vertical-align: top;
   }
   
   .text p {
-    font-size: 2vw;
+    font-size: 3vw;
     vertical-align: baseline;
   }
 
