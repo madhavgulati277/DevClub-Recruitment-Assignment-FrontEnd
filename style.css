@@ -16,11 +16,7 @@ body {
 }
 
 
-.welcome h3 {
-  color: #111111;
-  font-size: 30px;
-  text-align: center;
-}
+
 
 
 .welcome img{
@@ -33,39 +29,39 @@ body {
   padding-top: 20;
   padding-bottom: 20;
   margin: 0;
-	animation-name: color;
-	animation-duration: 20s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: linear;
+  background-image: url(pics/wallpaper.png);
 }
 
 @keyframes color {
 	0% {
-		background: #ffa099;
+		background: #ff5a5a;
 	}
 	20% {
-		background: #bfedd4;
+		background: #39ff92;
 	}
   40%{
-    background: #99dbff;
+    background: #5dc6ff;
   }
 	60% {
-		background: #fdbafc;
+		background: #ff8ffd;
 	}
 	80% {
-		background: #ffefcb;
+		background: #fff268;
 	}
 	100% {
-		background: #ffacac;
+		background: #ff5353;
 	}
 }
 
 header {
-  background-color: #bbbbbb;
   font-size: 22px;
   padding: 15;
   overflow: hidden;
+  	animation-name: color;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
 }
 
 header h1, header h3 {
@@ -163,17 +159,24 @@ article h1 {
 
 .intro {
   display:inline-block;
-  border-radius: 20px;
-  padding:25px;
+  border-radius: 2vw;
+  padding:2vw;
   transition: transform 0.8s;
-  background-color: #111111;
-  color: #eeeeee;
-  margin: 30px;
+  background-image: url(pics/webd.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3vw;
   text-align: center;
-  min-width: 40%;
+  min-width: 30%;
   max-width:60%;
   vertical-align: middle;
   font-weight: bolder;
+}
+
+.intro h1 {
+  margin: auto;
+  color: #ff00e6;
+  vertical-align: middle;
 }
 
 .intro:hover {
@@ -209,7 +212,7 @@ team{
 
 .greeting h1 {
   font-size: 34px;
-  color: #333333;
+  color: #00ff04;
   text-align: center;
   padding: 2%;
 }
@@ -268,8 +271,7 @@ team{
   text-align: center;
   vertical-align: middle;
   position: relative;
-  min-width: 60%;
-  max-width: 75%;
+  max-width: 70%;
 }
 
 .container:hover .overlay {
@@ -367,8 +369,7 @@ team{
   font-size: 20px;
   display: inline-block;
   margin: 6%;
-  min-width: 50%;  
-  }
+}
 
 .devclub h3{
   text-align: center;
@@ -576,7 +577,7 @@ footer {
     padding:5vw;
   }
 
-  .intro h3{
+  .intro h1{
     font-size: 4vw;
   }
   
@@ -587,8 +588,7 @@ footer {
   }
   
   .container{
-    min-width:60%;
-    max-width: 75%;
+    max-width: 70%;
   }
 
 
